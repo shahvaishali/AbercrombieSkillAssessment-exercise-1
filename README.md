@@ -4,18 +4,51 @@
 
 ## Description
 
-The assessment will query a list of users and print the data to the DOM in an unordered list using a server. Each user will contain its name, avatar, created date, and ID. Created data and ID will be shown for the user using a button.
+The assessment will query a list of users and print the data to the DOM in an unordered list. Each user will contain its name, avatar, created date, and ID. Created data and ID will be shown for the user using a button.
 
 ***
 
 ## Setup 
-1. Install node and npm on your computer and verify its installation by entering commands "node -v" and "npm -v" in command line 
-2. Clone this repository
-3. In your project directory, enter command "npm install" in command line
-4. You can run test case and launch server by entering command "npm run launch" in command line and app will be delivered to http://localhost:3000
-5. You can individually run the test case by entering command "npm run test" in command line
-6. You can individually launch server by entering command "npm run start" in command line
 
+1. Install git, node and npm on your computer and verify its installation by running the following commands in command line 
+
+### `git --version`
+### `node -v`
+### `npm -v`
+
+<br />
+
+2. Clone this repository
+
+### `git clone https://github.com/shahvaishali/AbercrombieSkillAssessment-exercise-1.git`
+
+<br />
+
+3. In your project directory, install all the necessary node modules
+
+### `npm install`
+
+ <br />
+
+4. In you project directory, you can run 
+
+### `npm run launch`
+Launches the test runner in the interactive watch mode and runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+The page will reload if you make edits.<br />
+
+### `npm run test`
+
+Launches the test runner in the interactive watch mode.<br />
+
+### `npm run start`
+
+Runs the app in the development mode.
+
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+The page will reload if you make edits.<br />
 ***
 
 ## Exercise 1: Consuming RESTful API data
