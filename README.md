@@ -9,11 +9,12 @@ The assessment will query a list of users and print the data to the DOM in an un
 ***
 
 ## Setup 
-1. Clone this repository
-2. In your project directory, run "npm install"
-3. You can run test case and launch server by "npm run launch" and app will be delivered to http://localhost:3000
-4. You can individually run the test case by "npm run test"
-5. You can individually launch server by "npm run start"
+1. Install node and npm on your computer and verify its installation by entering commands "node -v" and "npm -v" in command line 
+2. Clone this repository
+3. In your project directory, enter command "npm install" in command line
+4. You can run test case and launch server by entering command "npm run launch" in command line and app will be delivered to http://localhost:3000
+5. You can individually run the test case by entering command "npm run test" in command line
+6. You can individually launch server by entering command "npm run start" in command line
 
 ***
 
