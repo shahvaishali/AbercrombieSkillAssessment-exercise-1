@@ -1,0 +1,20 @@
+<h1 class="title">
+  User Profile
+</h1>
+<ul class="container" id="userProfile">
+  {{#each people}}
+    <li class="user">
+      <div>{{name}}</div>
+      <img src={{avatar}} class="img">
+      <div class='test hide'>CreatedAt: {{createdAt}}</div>
+      <div class='test hide'>Id: {{id}}</div>
+      <button type="button" class="show" id={{id}} onclick="showDetails({{id}})">Show More</button>
+    </li>
+  {{/each}}
+</ul>
+<script>
+  const showDetails = (id) => {
+    $(`#${id}`).parent().find(".test").toggleClass("hide", "show") // Hides and shows the id and CreatedAt lists
+    $(`#${id}`).text($(`#${id}`).text() == 'Show More' ? 'Show Less' : 'Show More') // Toggles the button text
+  }
+</script>
