@@ -5,7 +5,7 @@
   {{#each people}}
     <li class="user">
       <div>{{name}}</div>
-      <img src={{avatar}} class="img">
+      <img src={{avatar}} class="img" alt="Image not found" onerror="this.src='https://i0.wp.com/blogs.cardiff.ac.uk/mental-health/wp-content/uploads/sites/502/2017/04/no-profile.jpg'">
       <div class='test hide'>CreatedAt: {{createdAt}}</div>
       <div class='test hide'>Id: {{id}}</div>
       <button type="button" class="show" id={{id}} onclick="showDetails({{id}})">Show More</button>
