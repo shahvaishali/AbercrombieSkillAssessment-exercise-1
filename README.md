@@ -32,12 +32,6 @@ The assessment will query a list of users and print the data to the DOM in an un
 
 4. In you project directory, you can run 
 
-### `npm run launch`
-Launches the test runner in the interactive watch mode and runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br />
-
 ### `npm run test`
 
 Launches the test runner in the interactive watch mode.<br />
